@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
                     width: globalEdgePadding * 2,
                   ),
                   const Text(
-                    "Recycle",
+                    "Garbage recycle guide",
                     style: TextStyle(fontSize: 30, color: Colors.white),
                   )
                 ],
@@ -197,7 +197,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               Image.asset("assets/app_icon.png"),
               const Text(
-                "Recycle",
+                    "Garbage recycle guide",
                 style: TextStyle(fontSize: 15, color: Colors.white),
               ),
               GestureDetector(

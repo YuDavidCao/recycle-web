@@ -58,7 +58,7 @@ class _GuidePageState extends State<GuidePage> {
                     width: globalEdgePadding * 2,
                   ),
                   const Text(
-                    "Recycle",
+                    "Garbage recycle guide",
                     style: TextStyle(fontSize: 30, color: Colors.white),
                   )
                 ],
@@ -177,7 +177,7 @@ class _GuidePageState extends State<GuidePage> {
             children: [
               Image.asset("assets/app_icon.png"),
               const Text(
-                "Recycle",
+                    "Garbage recycle guide",
                 style: TextStyle(fontSize: 15, color: Colors.white),
               ),
               GestureDetector(
